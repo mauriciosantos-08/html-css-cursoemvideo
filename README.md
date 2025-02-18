@@ -2,4 +2,4 @@
 
 Curso de HTML e CSS - Curso em Video
 
-<a target="_blank" href="projetos/desafio 10/android.html">Desafio Android</a>
+<a href="projetos/desafio 10/android.html" target="_blank">Desafio Android</a>
