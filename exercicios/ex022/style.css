@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-body > div.quadrado {
+body {
+  background-image: url(img/wallpaper001.jpg);
+}
+
+div.quadrado {
   height: 300px;
   width: 300px;
   border: 2px solid black;
