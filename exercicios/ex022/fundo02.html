@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de Repetição de Imagens</title>
+    <style>
+      .quadrado {
+        height: 400px;
+        width: 90%;
+        border: 2px solid black;
+        display: inline-block;
+        margin: 20px;
+      }
+
+      #d0 {
+        background-image: url(img/wallpaper004.jpg);
+        /* padrão: imagem se adapta */
+      }
+
+      #d1 {
+        background-image: url(img/wallpaper004.jpg);
+        background-size: 50% 200px;
+        background-repeat: no-repeat;
+        /* background-size: configura o tamanho da imagem */
+        /* background-repeat: configura a repetição da imagem  */
+      }
+
+      #d2 {
+        background-image: url(img/wallpaper004.jpg);
+        background-size: 50% 200px;
+        background-repeat: repeat-x;
+      }
+
+      #d3 {
+        background-image: url(img/wallpaper004.jpg);
+        background-size: 50% 200px;
+        background-repeat: repeat-y;
+      }
+
+      #d4 {
+        background-image: url(img/pattern001.png);
+        background-repeat: repeat; /*padrão */
+      }
+      #d5 {
+        background-image: url(img/pattern001.png);
+        background-repeat: no-repeat;
+      }
+      #d6 {
+        background-image: url(img/pattern001.png);
+        background-repeat: repeat-x;
+      }
+      #d7 {
+        background-image: url(img/pattern001.png);
+        background-repeat: repeat-y;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Testando Configuração de Backgrounds</h1>
+    <div class="quadrado" id="d0"></div>
+    <div class="quadrado" id="d1"></div>
+    <div class="quadrado" id="d2"></div>
+    <div class="quadrado" id="d3"></div>
+    <div class="quadrado" id="d4"></div>
+    <div class="quadrado" id="d5"></div>
+    <div class="quadrado" id="d6"></div>
+    <div class="quadrado" id="d7"></div>
+  </body>
+</html>
