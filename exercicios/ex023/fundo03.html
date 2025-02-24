@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pq-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Position</title>
+    <style>
+      div.quadro {
+        height: 200px;
+        width: 70%;
+
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 20px auto;
+        background-image: url(ex022/img/wallpaper003.jpg);
+      }
+
+      div#q1 {
+        background-position: top left;
+        /* posicionamento padrão */
+        /* declaração: 1º-coluna e 2º-linha */
+      }
+
+      div#q2 {
+        background-position: top right;
+      }
+
+      div#q3 {
+        background-position: left bottom;
+      }
+
+      div#q4 {
+        background-position: right bottom;
+      }
+
+      div#q5 {
+        background-position: left center;
+      }
+
+      div#q6 {
+        background-position: right center;
+      }
+
+      div#q7 {
+        background-position: center center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Teste de Background Position</h1>
+    <div class="quadro" id="q1"></div>
+    <div class="quadro" id="q2"></div>
+    <div class="quadro" id="q3"></div>
+    <div class="quadro" id="q4"></div>
+    <div class="quadro" id="q5"></div>
+    <div class="quadro" id="q6"></div>
+    <div class="quadro" id="q7"></div>
+  </body>
+</html>
